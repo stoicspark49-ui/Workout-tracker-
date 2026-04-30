@@ -1,1 +1,83 @@
-f
+:root {
+  --bg: #0a0a0a;
+  --card: #1a1a1a;
+  --accent: #ff4d00;
+  --text: #ffffff;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+  padding: 15px;
+  border-bottom: 1px solid #333;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* NAV */
+.nav-tabs {
+  display: flex;
+  margin-top: 10px;
+}
+
+.nav-tab {
+  flex: 1;
+  padding: 10px;
+  background: none;
+  border: none;
+  color: gray;
+  cursor: pointer;
+}
+
+.nav-tab.active {
+  color: var(--accent);
+}
+
+/* PAGES */
+.page {
+  display: none;
+  padding: 20px;
+}
+
+.page.active {
+  display: block;
+}
+
+/* LOGIN */
+.login-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+}
+
+.login-container input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+.login-container button {
+  padding: 10px;
+  background: var(--accent);
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
