@@ -1,4 +1,4 @@
 const supabase = window.supabase.createClient(
-  "YOUR_SUPABASE_URL",
-  "YOUR_ANON_KEY"
+  sb_publishable_qy-sdfjvYSnOPZwEkAc76g_T5HYGtXR,
+  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndlaHZuYnJ4aGVtbHNzc21ocGptIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc1MjA0ODEsImV4cCI6MjA5MzA5NjQ4MX0.TC_k5bmY85k5oi0dAPigsC1U3g5GyvERlhpgYUsJFQ8
 );
