@@ -1,13 +1,26 @@
-<body>
-  <div class="login-container">
-    <h2>Login to IronLog</h2>
-    <input type="email" id="email">
-    <input type="password" id="password">
-    <button onclick="login()">Login</button>
-    <button onclick="signup()">Sign Up</button>
-  </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - IronLog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="supabase.js"></script>
-  <script src="auth.js"></script>
+<body>
+
+<div class="login-container">
+  <h2>IronLog Login</h2>
+
+  <input type="email" id="email" placeholder="Enter Email">
+  <input type="password" id="password" placeholder="Enter Password">
+
+  <button onclick="login()">Login</button>
+  <button onclick="signup()">Sign Up</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase.js"></script>
+<script src="auth.js"></script>
+
 </body>
+</html>
